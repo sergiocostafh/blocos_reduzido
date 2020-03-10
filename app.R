@@ -56,7 +56,7 @@ server <- function(input, output, session) {
             addLegend(
                 pal = pal,
                 values = ~na.omit(unique(habilita)),
-                title = "Bloco Lidar", 
+                title = "Bloco", 
                 position = "bottomright" 
             )
     })
